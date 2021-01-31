@@ -22,4 +22,6 @@ Design Choices and How to Run:
         obviously not a good choice during deployment as worker memory may explode as the input grows.
     13. To run the tests, you can simply run them using IDE or from the terminal, from project root by "sbt test" 
         command.
+    14. sessionLength.csv has been added as an extra dataframe for the bonus question. It can be used to show the 
+        session length for each user session. Which will be helpful in churn rate analysis and recomendation purposes.
     
